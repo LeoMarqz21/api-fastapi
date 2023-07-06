@@ -1,0 +1,29 @@
+### API with FastAPI and Python
+-------------------------------
+/config
+    db_config.py # class DBConfig
+/controllers
+    user.controller.py # UserController
+/models
+    user.model.py # class UserModel
+/schemas
+    #DTOs user.schema.py # class UserSchema
+/middlewares
+    header.middlewares.py # class HeaderMiddleware
+/routers
+    user.router.py # class UserRouter
+/services
+    mail.service.py # class MailService
+/static
+    /images
+        hi.jpg
+    /videos
+        helloworld.mp4
+    /music
+        hello_adele.mp3
+/helpers
+    jwt.py # class JWTManager
+    crypt.py # class CryptManager
+/venv
+app.py
+requirements.txt
